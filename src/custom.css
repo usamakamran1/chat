@@ -38,3 +38,19 @@
   border-radius: 6px;
   margin-right: 0.6em;
 }
+
+.justify-content-between { justify-content: space-between }
+
+.w-100 { width: 100% }
+
+.str-chat__li.str-chat__li--single {
+  padding: 5px 5px;
+}
+
+.str-chat__message, .str-chat__message-simple {
+  align-items: flex-start !important;
+}
+
+.str-chat__li.str-chat__li--single:hover {
+  background: #f8f8f8; 
+}
